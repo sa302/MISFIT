@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.big-wrapper{
+    width:100%;
+}
+#example-1 ul li a{
+color:black;
+}
+/* banner starts */
+.banner{
+    width:100vw;
+    height:900PX;
+    background-image: url("../images/banner.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-text{
+    color:white;
+    position:relative;
+    left:25%;
+    top:30%;
+}
+.banner h2{
+    font-size:4rem;
+}
+.banner h1{
+    font-size:7rem;
+    font-weight: 700;
+}
+.banner p{
+    font-size:1.9rem;
+}
+.banner .btn1{
+    width:180px;
+    height:50px;
+    background-color:#00274a;
+    color:white;
+    border-radius: 10px;
+    border:0;
+}
+/* full-width */
+.full-width{
+    width:100%;
+    padding:20rem 0px;
+}
+.full-width .main h1{
+    margin-top:15rem;
+    font-size:4rem;
+    font-family: popins;
+}
+.full-width .main p{
+    font-size:1.5rem;
+}
+.full-width .main .read-more{
+    width:180px;
+    height:50px;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+    border:0;
+}
+/* our-services */
+.our-services{
+    background-color:#00274a;
+    padding:10rem 0px;
+    color:white;
+}
+.our-services img{
+    width:100%;
+    margin:2rem 0rem;;
+}
+/* latest-news */
+.latest-news{
+    padding:20rem 0px; 
+}
+/* our trainers */
+.our-trainers{
+    color:white;
+    padding:20rem 0px; 
+    background-image: url("../images/service1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+/* gallery */
+.gallery{
+    padding:20rem 0px;
+    background-color:#00274a;
+    color:white;
+}
+.first-row{
+    padding:5rem 0px; 
+}
+/* form-section */
+.form-section{
+    padding:20rem 0px; 
+}
+.form-section input{
+width:45rem;
+padding:1rem;
+margin-bottom:2rem;
+border-radius:5px;
+border:1px solid #0f98f8
+}
+.form-section .send{
+    width:120px;
+    height:50px;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+    border:0;
+}
+/* footer starts */
+.footer{
+    padding:20rem 0px;  
+    background-color:#00274a;
+    color:white;
+}
+.footer h3{
+    font-size:3rem;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:1.9rem;
+}
+.footer span {
+font-size:3.5rem;
+padding:1rem;
+}
+.footer p{
+    display: inline;
+    padding:1rem;
+    font-size:1.9rem;
+}
+.footer input{
+    width:30rem;
+    padding:1.2rem;
+    margin-bottom:2rem;
+    
+}
+.subscribe{
+    width:150px;
+    height:50px;
+    background-color:#cb8f00;
+    color:white;
+    border:0;
+}
+/* media query starts */
+@media only screen and (max-width:1000px)
+{
+    /* banner starts */
+    .banner{
+     height:500px;
+     background-image: url("../images/banner.jpg");
+     background-size:cover;
+     background-repeat: no-repeat;
+    }
+    
+    .banner-text{
+        color:white;
+        position:relative;
+        left:25%;
+        top:30%;
+    }
+    .banner h2{
+        font-size:2.5rem;
+    }
+    .banner h1{
+        font-size:4rem;
+        font-weight: 700;
+    }
+    .banner p{
+        font-size:1.9rem;
+    }
+    .banner .btn1{
+        width:100px;
+        height:50px;
+        background-color:#00274a;
+        color:white;
+        border-radius: 10px;
+        border:0;
+    }
+    /* banner ends */
+
+
+
+    /* full width starts */
+
+   .full-width{
+        width:100%;
+        padding:10rem 0px;
+        text-align: center;
+        
+    }
+    .full-width .main h1{
+        margin-top:0rem;
+        font-size:4rem;
+        font-family: popins;
+    }
+    .full-width .main p{
+        font-size:1.5rem;
+    }
+    .full-width .main .read-more{
+        width:180px;
+        height:50px;
+        margin-bottom:10rem;
+        background-color:black;
+        color:white;
+        border-radius: 10px;
+        border:0;
+        
+    }
+    /* full width ends */
+
+    /* latest news */
+    .latest-news img{
+       width:100%;
+    }
+    .latest-news{
+        padding:10rem 0px; 
+    }
+    /* latest news ends */
+
+
+    /* our trainers */
+.our-trainers{
+    color:white;
+    padding:20rem 0px; 
+    background-image: url("../images/service1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.top-space{
+    margin-top:10rem;
+}
+
+.our-trainers img{
+    width:100%;
+}
+/* gallery */
+.gallery{
+    padding:10rem 0px;
+    background-color:#00274a;
+    color:white;
+}
+.gallery img{
+    width:100%;
+    margin-top:5rem;
+}
+.first-row{
+    padding:5rem 0px; 
+}
+/* gallery ends */
+
+
+/* form-section */
+.form-section{
+    padding:10rem 0px; 
+}
+
+.form-section .send{
+  margin-bottom:2rem;
+}
+.form-section iframe{
+    width:100%;
+}
+
+
+
+   
+}
